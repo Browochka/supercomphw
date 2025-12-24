@@ -1,0 +1,85 @@
+
+Interval: [0, 1000], N = 1000, h = 1
+Threads: 1
+  Time: 0.351569 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 0.0402777 ms (speedup: 8.72863x, efficiency: 4.36432)
+Threads: 4
+  Time: 0.0349167 ms (speedup: 10.0688x, efficiency: 2.5172)
+Threads: 6
+  Time: 0.0667917 ms (speedup: 5.26367x, efficiency: 0.877278)
+Threads: 8
+  Time: 0.139778 ms (speedup: 2.5152x, efficiency: 0.3144)
+Threads: 12
+  Time: 0.138486 ms (speedup: 2.53865x, efficiency: 0.211555)
+--------------------------------------
+Interval: [0, 10000], N = 10000, h = 1
+Threads: 1
+  Time: 0.084139 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 0.0394167 ms (speedup: 2.1346x, efficiency: 1.0673)
+Threads: 4
+  Time: 0.0345417 ms (speedup: 2.43587x, efficiency: 0.608967)
+Threads: 6
+  Time: 0.099361 ms (speedup: 0.846801x, efficiency: 0.141134)
+Threads: 8
+  Time: 0.121708 ms (speedup: 0.691317x, efficiency: 0.0864146)
+Threads: 12
+  Time: 0.161333 ms (speedup: 0.521523x, efficiency: 0.0434602)
+--------------------------------------
+Interval: [0, 100000], N = 100000, h = 1
+Threads: 1
+  Time: 0.729514 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 0.391069 ms (speedup: 1.86543x, efficiency: 0.932717)
+Threads: 4
+  Time: 0.208972 ms (speedup: 3.49097x, efficiency: 0.872741)
+Threads: 6
+  Time: 0.255389 ms (speedup: 2.85649x, efficiency: 0.476081)
+Threads: 8
+  Time: 0.240778 ms (speedup: 3.02982x, efficiency: 0.378728)
+Threads: 12
+  Time: 0.235125 ms (speedup: 3.10266x, efficiency: 0.258555)
+--------------------------------------
+Interval: [0, 1e+06], N = 1e+06, h = 1
+Threads: 1
+  Time: 7.10851 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 4.06075 ms (speedup: 1.75054x, efficiency: 0.875271)
+Threads: 4
+  Time: 2.06614 ms (speedup: 3.44048x, efficiency: 0.860121)
+Threads: 6
+  Time: 1.43996 ms (speedup: 4.93661x, efficiency: 0.822768)
+Threads: 8
+  Time: 1.12969 ms (speedup: 6.29242x, efficiency: 0.786553)
+Threads: 12
+  Time: 1.09628 ms (speedup: 6.48423x, efficiency: 0.540352)
+--------------------------------------
+Interval: [0, 1e+07], N = 1e+07, h = 1
+Threads: 1
+  Time: 80.6265 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 41.0849 ms (speedup: 1.96244x, efficiency: 0.981219)
+Threads: 4
+  Time: 20.8814 ms (speedup: 3.86116x, efficiency: 0.965289)
+Threads: 6
+  Time: 14.109 ms (speedup: 5.71453x, efficiency: 0.952422)
+Threads: 8
+  Time: 10.5046 ms (speedup: 7.67538x, efficiency: 0.959422)
+Threads: 12
+  Time: 12.5813 ms (speedup: 6.40846x, efficiency: 0.534038)
+--------------------------------------
+Interval: [0, 5e+07], N = 5e+07, h = 1
+Threads: 1
+  Time: 411.481 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 205.642 ms (speedup: 2.00096x, efficiency: 1.00048)
+Threads: 4
+  Time: 105.757 ms (speedup: 3.8908x, efficiency: 0.9727)
+Threads: 6
+  Time: 68.7449 ms (speedup: 5.98562x, efficiency: 0.997604)
+Threads: 8
+  Time: 55.9107 ms (speedup: 7.35961x, efficiency: 0.919951)
+Threads: 12
+  Time: 50.2683 ms (speedup: 8.18569x, efficiency: 0.682141)
+--------------------------------------

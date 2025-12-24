@@ -1,0 +1,56 @@
+Size: 500 vectors of dimension 100 from file vectors_500_100.txt
+Threads: 1
+ Time: 14.0495 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 12.1303 ms (speedup: 1.15821x, efficiency: 0.579105)
+Threads: 4
+ Time: 12.2658 ms (speedup: 1.14542x, efficiency: 0.286354)
+Threads: 6
+ Time: 12.2412 ms (speedup: 1.14772x, efficiency: 0.191287)
+Threads: 8
+ Time: 12.1464 ms (speedup: 1.15668x, efficiency: 0.144585)
+Threads: 12
+ Time: 12.2249 ms (speedup: 1.14925x, efficiency: 0.0957708)
+--------------------------------------
+Size: 1000 vectors of dimension 50 from file vectors_1000_50.txt
+Threads: 1
+ Time: 12.0692 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 13.1899 ms (speedup: 0.915037x, efficiency: 0.457518)
+Threads: 4
+ Time: 13.0852 ms (speedup: 0.922353x, efficiency: 0.230588)
+Threads: 6
+ Time: 12.8746 ms (speedup: 0.937446x, efficiency: 0.156241)
+Threads: 8
+ Time: 11.9027 ms (speedup: 1.01399x, efficiency: 0.126749)
+Threads: 12
+ Time: 12.3316 ms (speedup: 0.978723x, efficiency: 0.0815603)
+--------------------------------------
+Size: 5000 vectors of dimension 50 from file vectors_5000_50.txt
+Threads: 1
+ Time: 58.7566 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 60.3655 ms (speedup: 0.973347x, efficiency: 0.486674)
+Threads: 4
+ Time: 60.2943 ms (speedup: 0.974498x, efficiency: 0.243624)
+Threads: 6
+ Time: 59.9402 ms (speedup: 0.980253x, efficiency: 0.163376)
+Threads: 8
+ Time: 60.7077 ms (speedup: 0.967861x, efficiency: 0.120983)
+Threads: 12
+ Time: 61.2237 ms (speedup: 0.959704x, efficiency: 0.0799753)
+--------------------------------------
+Size: 1000 vectors of dimension 1000 from file vectors_1000_1000.txt
+Threads: 1
+ Time: 236.613 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 228.837 ms (speedup: 1.03398x, efficiency: 0.516991)
+Threads: 4
+ Time: 229.387 ms (speedup: 1.0315x, efficiency: 0.257875)
+Threads: 6
+ Time: 232.088 ms (speedup: 1.0195x, efficiency: 0.169916)
+Threads: 8
+ Time: 229.991 ms (speedup: 1.02879x, efficiency: 0.128599)
+Threads: 12
+ Time: 226.818 ms (speedup: 1.04319x, efficiency: 0.0869321)
+--------------------------------------

@@ -1,0 +1,252 @@
+Size: 1000x1000, elements = 1000000, Matrix type: banded, Schedule: static
+Threads: 1
+  Time: 5.84058 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 2.80428 ms (speedup: 2.08274x, efficiency: 1.04137)
+Threads: 4
+  Time: 1.43571 ms (speedup: 4.06808x, efficiency: 1.01702)
+Threads: 6
+  Time: 1.077 ms (speedup: 5.42301x, efficiency: 0.903836)
+Threads: 8
+  Time: 0.828945 ms (speedup: 7.04581x, efficiency: 0.880726)
+Threads: 12
+  Time: 0.715472 ms (speedup: 8.16326x, efficiency: 0.680271)
+--------------------------------------
+Size: 1000x1000, elements = 1000000, Matrix type: banded, Schedule: dynamic
+Threads: 1
+  Time: 5.84058 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 2.80106 ms (speedup: 2.08514x, efficiency: 1.04257)
+Threads: 4
+  Time: 1.42222 ms (speedup: 4.10666x, efficiency: 1.02666)
+Threads: 6
+  Time: 1.02139 ms (speedup: 5.71827x, efficiency: 0.953046)
+Threads: 8
+  Time: 0.794403 ms (speedup: 7.35217x, efficiency: 0.919021)
+Threads: 12
+  Time: 0.637848 ms (speedup: 9.15671x, efficiency: 0.763059)
+--------------------------------------
+Size: 1000x1000, elements = 1000000, Matrix type: banded, Schedule: guided
+Threads: 1
+  Time: 5.84058 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 2.77768 ms (speedup: 2.10268x, efficiency: 1.05134)
+Threads: 4
+  Time: 1.43082 ms (speedup: 4.08199x, efficiency: 1.0205)
+Threads: 6
+  Time: 0.981681 ms (speedup: 5.94957x, efficiency: 0.991596)
+Threads: 8
+  Time: 0.76982 ms (speedup: 7.58695x, efficiency: 0.948369)
+Threads: 12
+  Time: 0.620695 ms (speedup: 9.40975x, efficiency: 0.784146)
+--------------------------------------
+Size: 3000x3000, elements = 9000000, Matrix type: banded, Schedule: static
+Threads: 1
+  Time: 49.5258 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 24.8245 ms (speedup: 1.99504x, efficiency: 0.997519)
+Threads: 4
+  Time: 12.452 ms (speedup: 3.97734x, efficiency: 0.994335)
+Threads: 6
+  Time: 8.32687 ms (speedup: 5.94771x, efficiency: 0.991285)
+Threads: 8
+  Time: 6.41097 ms (speedup: 7.72516x, efficiency: 0.965646)
+Threads: 12
+  Time: 5.80471 ms (speedup: 8.53201x, efficiency: 0.711001)
+--------------------------------------
+Size: 3000x3000, elements = 9000000, Matrix type: banded, Schedule: dynamic
+Threads: 1
+  Time: 49.5258 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 24.8752 ms (speedup: 1.99097x, efficiency: 0.995484)
+Threads: 4
+  Time: 12.4784 ms (speedup: 3.96893x, efficiency: 0.992233)
+Threads: 6
+  Time: 8.34065 ms (speedup: 5.93788x, efficiency: 0.989647)
+Threads: 8
+  Time: 6.37021 ms (speedup: 7.7746x, efficiency: 0.971825)
+Threads: 12
+  Time: 4.78064 ms (speedup: 10.3597x, efficiency: 0.863305)
+--------------------------------------
+Size: 3000x3000, elements = 9000000, Matrix type: banded, Schedule: guided
+Threads: 1
+  Time: 49.5258 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 24.819 ms (speedup: 1.99548x, efficiency: 0.997739)
+Threads: 4
+  Time: 12.4085 ms (speedup: 3.99127x, efficiency: 0.997818)
+Threads: 6
+  Time: 8.31826 ms (speedup: 5.95387x, efficiency: 0.992311)
+Threads: 8
+  Time: 6.33381 ms (speedup: 7.81928x, efficiency: 0.97741)
+Threads: 12
+  Time: 4.63639 ms (speedup: 10.682x, efficiency: 0.890165)
+--------------------------------------
+Size: 5000x5000, elements = 25000000, Matrix type: banded, Schedule: static
+Threads: 1
+  Time: 137.634 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 68.8695 ms (speedup: 1.99847x, efficiency: 0.999235)
+Threads: 4
+  Time: 34.452 ms (speedup: 3.99494x, efficiency: 0.998734)
+Threads: 6
+  Time: 23.2678 ms (speedup: 5.91521x, efficiency: 0.985868)
+Threads: 8
+  Time: 17.3838 ms (speedup: 7.91733x, efficiency: 0.989666)
+Threads: 12
+  Time: 16.9093 ms (speedup: 8.13952x, efficiency: 0.678293)
+--------------------------------------
+Size: 5000x5000, elements = 25000000, Matrix type: banded, Schedule: dynamic
+Threads: 1
+  Time: 137.634 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 68.8221 ms (speedup: 1.99985x, efficiency: 0.999924)
+Threads: 4
+  Time: 34.5086 ms (speedup: 3.98838x, efficiency: 0.997095)
+Threads: 6
+  Time: 23.141 ms (speedup: 5.94762x, efficiency: 0.99127)
+Threads: 8
+  Time: 17.3674 ms (speedup: 7.92482x, efficiency: 0.990602)
+Threads: 12
+  Time: 12.765 ms (speedup: 10.7821x, efficiency: 0.898508)
+--------------------------------------
+Size: 5000x5000, elements = 25000000, Matrix type: banded, Schedule: guided
+Threads: 1
+  Time: 137.634 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 68.7335 ms (speedup: 2.00242x, efficiency: 1.00121)
+Threads: 4
+  Time: 34.3803 ms (speedup: 4.00327x, efficiency: 1.00082)
+Threads: 6
+  Time: 23.1536 ms (speedup: 5.94438x, efficiency: 0.99073)
+Threads: 8
+  Time: 17.2713 ms (speedup: 7.96893x, efficiency: 0.996116)
+Threads: 12
+  Time: 12.6255 ms (speedup: 10.9012x, efficiency: 0.908434)
+--------------------------------------
+Size: 1000x1000, elements = 1000000, Matrix type: lower, Schedule: static
+Threads: 1
+  Time: 5.55597 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 2.7831 ms (speedup: 1.99633x, efficiency: 0.998164)
+Threads: 4
+  Time: 1.4179 ms (speedup: 3.91844x, efficiency: 0.979611)
+Threads: 6
+  Time: 1.00275 ms (speedup: 5.54073x, efficiency: 0.923456)
+Threads: 8
+  Time: 0.812195 ms (speedup: 6.84069x, efficiency: 0.855086)
+Threads: 12
+  Time: 0.893278 ms (speedup: 6.21976x, efficiency: 0.518313)
+--------------------------------------
+Size: 1000x1000, elements = 1000000, Matrix type: lower, Schedule: dynamic
+Threads: 1
+  Time: 5.55597 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 2.84079 ms (speedup: 1.95578x, efficiency: 0.977891)
+Threads: 4
+  Time: 1.43674 ms (speedup: 3.86708x, efficiency: 0.96677)
+Threads: 6
+  Time: 1.0231 ms (speedup: 5.43054x, efficiency: 0.90509)
+Threads: 8
+  Time: 0.800223 ms (speedup: 6.94303x, efficiency: 0.867879)
+Threads: 12
+  Time: 0.631125 ms (speedup: 8.80328x, efficiency: 0.733607)
+--------------------------------------
+Size: 1000x1000, elements = 1000000, Matrix type: lower, Schedule: guided
+Threads: 1
+  Time: 5.55597 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 2.78004 ms (speedup: 1.99852x, efficiency: 0.999261)
+Threads: 4
+  Time: 1.42042 ms (speedup: 3.91151x, efficiency: 0.977877)
+Threads: 6
+  Time: 0.9825 ms (speedup: 5.65494x, efficiency: 0.942489)
+Threads: 8
+  Time: 0.765875 ms (speedup: 7.25441x, efficiency: 0.906801)
+Threads: 12
+  Time: 0.632486 ms (speedup: 8.78434x, efficiency: 0.732028)
+--------------------------------------
+Size: 3000x3000, elements = 9000000, Matrix type: lower, Schedule: static
+Threads: 1
+  Time: 49.7987 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 24.8478 ms (speedup: 2.00415x, efficiency: 1.00208)
+Threads: 4
+  Time: 12.4643 ms (speedup: 3.99531x, efficiency: 0.998828)
+Threads: 6
+  Time: 8.32422 ms (speedup: 5.98239x, efficiency: 0.997065)
+Threads: 8
+  Time: 6.48274 ms (speedup: 7.68174x, efficiency: 0.960218)
+Threads: 12
+  Time: 6.21415 ms (speedup: 8.01376x, efficiency: 0.667813)
+--------------------------------------
+Size: 3000x3000, elements = 9000000, Matrix type: lower, Schedule: dynamic
+Threads: 1
+  Time: 49.7987 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 24.8594 ms (speedup: 2.00322x, efficiency: 1.00161)
+Threads: 4
+  Time: 12.4394 ms (speedup: 4.00331x, efficiency: 1.00083)
+Threads: 6
+  Time: 8.34562 ms (speedup: 5.96705x, efficiency: 0.994508)
+Threads: 8
+  Time: 6.35299 ms (speedup: 7.83863x, efficiency: 0.979829)
+Threads: 12
+  Time: 4.80261 ms (speedup: 10.3691x, efficiency: 0.864091)
+--------------------------------------
+Size: 3000x3000, elements = 9000000, Matrix type: lower, Schedule: guided
+Threads: 1
+  Time: 49.7987 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 24.8522 ms (speedup: 2.0038x, efficiency: 1.0019)
+Threads: 4
+  Time: 12.424 ms (speedup: 4.00826x, efficiency: 1.00206)
+Threads: 6
+  Time: 8.30807 ms (speedup: 5.99402x, efficiency: 0.999003)
+Threads: 8
+  Time: 6.27669 ms (speedup: 7.93391x, efficiency: 0.991739)
+Threads: 12
+  Time: 4.74539 ms (speedup: 10.4941x, efficiency: 0.874511)
+--------------------------------------
+Size: 5000x5000, elements = 25000000, Matrix type: lower, Schedule: static
+Threads: 1
+  Time: 137.59 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 68.7571 ms (speedup: 2.0011x, efficiency: 1.00055)
+Threads: 4
+  Time: 34.4834 ms (speedup: 3.99003x, efficiency: 0.997508)
+Threads: 6
+  Time: 24.1181 ms (speedup: 5.70484x, efficiency: 0.950807)
+Threads: 8
+  Time: 20.626 ms (speedup: 6.67069x, efficiency: 0.833836)
+Threads: 12
+  Time: 19.1578 ms (speedup: 7.18194x, efficiency: 0.598495)
+--------------------------------------
+Size: 5000x5000, elements = 25000000, Matrix type: lower, Schedule: dynamic
+Threads: 1
+  Time: 137.59 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 71.4924 ms (speedup: 1.92454x, efficiency: 0.962269)
+Threads: 4
+  Time: 34.5091 ms (speedup: 3.98705x, efficiency: 0.996764)
+Threads: 6
+  Time: 23.1712 ms (speedup: 5.93796x, efficiency: 0.98966)
+Threads: 8
+  Time: 17.4048 ms (speedup: 7.90527x, efficiency: 0.988159)
+Threads: 12
+  Time: 14.144 ms (speedup: 9.7278x, efficiency: 0.81065)
+--------------------------------------
+Size: 5000x5000, elements = 25000000, Matrix type: lower, Schedule: guided
+Threads: 1
+  Time: 137.59 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 69.7946 ms (speedup: 1.97135x, efficiency: 0.985676)
+Threads: 4
+  Time: 34.4072 ms (speedup: 3.99886x, efficiency: 0.999716)
+Threads: 6
+  Time: 22.9714 ms (speedup: 5.98961x, efficiency: 0.998268)
+Threads: 8
+  Time: 17.355 ms (speedup: 7.92797x, efficiency: 0.990996)
+Threads: 12
+  Time: 13.2461 ms (speedup: 10.3872x, efficiency: 0.865602)
+--------------------------------------

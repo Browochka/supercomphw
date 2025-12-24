@@ -1,0 +1,245 @@
+OpenMP Reduction Methods Testing
+Threads tested: 1 2 4 6 8 12 
+Vector sizes: 500000 1000000 5000000 10000000 
+Methods: reduction atomic critical lock 
+--------------------------------------
+Vector size: 500000
+Method: reduction
+Threads: 1
+ Time: 1.28153 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 0.527028 ms (speedup: 2.43161x, efficiency: 1.21581)
+Threads: 4
+ Time: 0.280514 ms (speedup: 4.5685x, efficiency: 1.14212)
+Threads: 6
+ Time: 0.316305 ms (speedup: 4.05156x, efficiency: 0.67526)
+Threads: 8
+ Time: 0.214487 ms (speedup: 5.97486x, efficiency: 0.746858)
+Threads: 12
+ Time: 0.253611 ms (speedup: 5.05312x, efficiency: 0.421093)
+--------------------------------------
+Vector size: 500000
+Method: atomic
+Threads: 1
+ Time: 4.16504 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 8.11111 ms (speedup: 0.513498x, efficiency: 0.256749)
+Threads: 4
+ Time: 17.0558 ms (speedup: 0.2442x, efficiency: 0.0610501)
+Threads: 6
+ Time: 28.1764 ms (speedup: 0.14782x, efficiency: 0.0246367)
+Threads: 8
+ Time: 49.298 ms (speedup: 0.084487x, efficiency: 0.0105609)
+Threads: 12
+ Time: 190.561 ms (speedup: 0.0218567x, efficiency: 0.00182139)
+--------------------------------------
+Vector size: 500000
+Method: critical
+Threads: 1
+ Time: 8.80792 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 77.479 ms (speedup: 0.113681x, efficiency: 0.0568407)
+Threads: 4
+ Time: 111.038 ms (speedup: 0.0793236x, efficiency: 0.0198309)
+Threads: 6
+ Time: 265.605 ms (speedup: 0.0331617x, efficiency: 0.00552695)
+Threads: 8
+ Time: 259.945 ms (speedup: 0.0338837x, efficiency: 0.00423547)
+Threads: 12
+ Time: 391.795 ms (speedup: 0.0224809x, efficiency: 0.00187341)
+--------------------------------------
+Vector size: 500000
+Method: lock
+Threads: 1
+ Time: 11.0546 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 79.9409 ms (speedup: 0.138284x, efficiency: 0.0691421)
+Threads: 4
+ Time: 109.004 ms (speedup: 0.101414x, efficiency: 0.0253534)
+Threads: 6
+ Time: 240.317 ms (speedup: 0.0459999x, efficiency: 0.00766664)
+Threads: 8
+ Time: 262.792 ms (speedup: 0.0420658x, efficiency: 0.00525823)
+Threads: 12
+ Time: 414.555 ms (speedup: 0.0266661x, efficiency: 0.00222217)
+--------------------------------------
+Vector size: 1000000
+Method: reduction
+Threads: 1
+ Time: 1.99503 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 1.02151 ms (speedup: 1.95301x, efficiency: 0.976505)
+Threads: 4
+ Time: 0.55707 ms (speedup: 3.58129x, efficiency: 0.895322)
+Threads: 6
+ Time: 0.402833 ms (speedup: 4.95249x, efficiency: 0.825415)
+Threads: 8
+ Time: 0.35532 ms (speedup: 5.61474x, efficiency: 0.701842)
+Threads: 12
+ Time: 0.397486 ms (speedup: 5.01911x, efficiency: 0.41826)
+--------------------------------------
+Vector size: 1000000
+Method: atomic
+Threads: 1
+ Time: 8.33307 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 18.1774 ms (speedup: 0.45843x, efficiency: 0.229215)
+Threads: 4
+ Time: 35.6274 ms (speedup: 0.233895x, efficiency: 0.0584738)
+Threads: 6
+ Time: 50.2153 ms (speedup: 0.165947x, efficiency: 0.0276578)
+Threads: 8
+ Time: 82.3437 ms (speedup: 0.101199x, efficiency: 0.0126498)
+Threads: 12
+ Time: 404.895 ms (speedup: 0.0205808x, efficiency: 0.00171507)
+--------------------------------------
+Vector size: 1000000
+Method: critical
+Threads: 1
+ Time: 16.7658 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 154.935 ms (speedup: 0.108212x, efficiency: 0.054106)
+Threads: 4
+ Time: 179.385 ms (speedup: 0.0934626x, efficiency: 0.0233657)
+Threads: 6
+ Time: 442.784 ms (speedup: 0.0378644x, efficiency: 0.00631074)
+Threads: 8
+ Time: 439.074 ms (speedup: 0.0381844x, efficiency: 0.00477305)
+Threads: 12
+ Time: 708.646 ms (speedup: 0.0236589x, efficiency: 0.00197157)
+--------------------------------------
+Vector size: 1000000
+Method: lock
+Threads: 1
+ Time: 22.7511 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 155.152 ms (speedup: 0.146637x, efficiency: 0.0733185)
+Threads: 4
+ Time: 165.537 ms (speedup: 0.137438x, efficiency: 0.0343596)
+Threads: 6
+ Time: 531.692 ms (speedup: 0.04279x, efficiency: 0.00713166)
+Threads: 8
+ Time: 506.72 ms (speedup: 0.0448987x, efficiency: 0.00561234)
+Threads: 12
+ Time: 804.64 ms (speedup: 0.0282749x, efficiency: 0.00235624)
+--------------------------------------
+Vector size: 5000000
+Method: reduction
+Threads: 1
+ Time: 9.93831 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 4.997 ms (speedup: 1.98885x, efficiency: 0.994427)
+Threads: 4
+ Time: 2.55075 ms (speedup: 3.89623x, efficiency: 0.974057)
+Threads: 6
+ Time: 1.71861 ms (speedup: 5.78275x, efficiency: 0.963792)
+Threads: 8
+ Time: 1.32779 ms (speedup: 7.48484x, efficiency: 0.935605)
+Threads: 12
+ Time: 1.51631 ms (speedup: 6.55429x, efficiency: 0.546191)
+--------------------------------------
+Vector size: 5000000
+Method: atomic
+Threads: 1
+ Time: 41.3671 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 71.452 ms (speedup: 0.57895x, efficiency: 0.289475)
+Threads: 4
+ Time: 134.608 ms (speedup: 0.307315x, efficiency: 0.0768287)
+Threads: 6
+ Time: 240.804 ms (speedup: 0.171788x, efficiency: 0.0286313)
+Threads: 8
+ Time: 359.093 ms (speedup: 0.115199x, efficiency: 0.0143999)
+Threads: 12
+ Time: 2015.35 ms (speedup: 0.0205261x, efficiency: 0.0017105)
+--------------------------------------
+Vector size: 5000000
+Method: critical
+Threads: 1
+ Time: 87.68 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 778.882 ms (speedup: 0.112572x, efficiency: 0.0562858)
+Threads: 4
+ Time: 1202.46 ms (speedup: 0.0729174x, efficiency: 0.0182293)
+Threads: 6
+ Time: 2373.13 ms (speedup: 0.0369471x, efficiency: 0.00615784)
+Threads: 8
+ Time: 2451.33 ms (speedup: 0.0357683x, efficiency: 0.00447104)
+Threads: 12
+ Time: 3915.69 ms (speedup: 0.022392x, efficiency: 0.001866)
+--------------------------------------
+Vector size: 5000000
+Method: lock
+Threads: 1
+ Time: 109.158 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 793.633 ms (speedup: 0.137542x, efficiency: 0.0687711)
+Threads: 4
+ Time: 812.329 ms (speedup: 0.134377x, efficiency: 0.0335942)
+Threads: 6
+ Time: 2456.29 ms (speedup: 0.0444402x, efficiency: 0.00740669)
+Threads: 8
+ Time: 2617.99 ms (speedup: 0.0416954x, efficiency: 0.00521192)
+Threads: 12
+ Time: 4031.82 ms (speedup: 0.0270741x, efficiency: 0.00225618)
+--------------------------------------
+Vector size: 10000000
+Method: reduction
+Threads: 1
+ Time: 19.9571 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 10.0391 ms (speedup: 1.98794x, efficiency: 0.993972)
+Threads: 4
+ Time: 5.15264 ms (speedup: 3.87317x, efficiency: 0.968294)
+Threads: 6
+ Time: 3.42378 ms (speedup: 5.82896x, efficiency: 0.971494)
+Threads: 8
+ Time: 2.58946 ms (speedup: 7.70704x, efficiency: 0.963381)
+Threads: 12
+ Time: 2.6838 ms (speedup: 7.43611x, efficiency: 0.619676)
+--------------------------------------
+Vector size: 10000000
+Method: atomic
+Threads: 1
+ Time: 82.568 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 189.835 ms (speedup: 0.434945x, efficiency: 0.217473)
+Threads: 4
+ Time: 260.179 ms (speedup: 0.317351x, efficiency: 0.0793377)
+Threads: 6
+ Time: 499.352 ms (speedup: 0.16535x, efficiency: 0.0275584)
+Threads: 8
+ Time: 746.161 ms (speedup: 0.110657x, efficiency: 0.0138321)
+Threads: 12
+ Time: 3852 ms (speedup: 0.0214351x, efficiency: 0.00178626)
+--------------------------------------
+Vector size: 10000000
+Method: critical
+Threads: 1
+ Time: 172.339 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 1544.1 ms (speedup: 0.111611x, efficiency: 0.0558056)
+Threads: 4
+ Time: 1647.38 ms (speedup: 0.104614x, efficiency: 0.0261535)
+Threads: 6
+ Time: 4836.87 ms (speedup: 0.0356303x, efficiency: 0.00593838)
+Threads: 8
+ Time: 5114.8 ms (speedup: 0.0336942x, efficiency: 0.00421178)
+Threads: 12
+ Time: 7934.27 ms (speedup: 0.0217209x, efficiency: 0.00181007)
+--------------------------------------
+Vector size: 10000000
+Method: lock
+Threads: 1
+ Time: 117241 ms (speedup: 1.0x, efficiency: 1.0)
+Threads: 2
+ Time: 1718.37 ms (speedup: 68.2279x, efficiency: 34.1139)
+Threads: 4
+ Time: 1801.01 ms (speedup: 65.0973x, efficiency: 16.2743)
+Threads: 6
+ Time: 4487.25 ms (speedup: 26.1276x, efficiency: 4.3546)
+Threads: 8
+ Time: 4535.32 ms (speedup: 25.8506x, efficiency: 3.23133)
+Threads: 12
+ Time: 11999.1 ms (speedup: 9.77077x, efficiency: 0.814231)
+--------------------------------------

@@ -1,0 +1,57 @@
+
+Vector size: 100000
+Threads: 1
+  Time: 0.530236 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 0.207722 ms (speedup: 2.55262x, efficiency: 1.27631)
+Threads: 4
+  Time: 0.138556 ms (speedup: 3.82688x, efficiency: 0.956721)
+Threads: 6
+  Time: 0.169153 ms (speedup: 3.13466x, efficiency: 0.522444)
+Threads: 8
+  Time: 0.179098 ms (speedup: 2.9606x, efficiency: 0.370075)
+Threads: 12
+  Time: 0.168681 ms (speedup: 3.14343x, efficiency: 0.261953)
+--------------------------------------
+Vector size: 1000000
+Threads: 1
+  Time: 3.07863 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 1.58538 ms (speedup: 1.94189x, efficiency: 0.970945)
+Threads: 4
+  Time: 0.807097 ms (speedup: 3.81444x, efficiency: 0.953611)
+Threads: 6
+  Time: 0.574347 ms (speedup: 5.36022x, efficiency: 0.89337)
+Threads: 8
+  Time: 0.472736 ms (speedup: 6.51236x, efficiency: 0.814044)
+Threads: 12
+  Time: 0.605986 ms (speedup: 5.08035x, efficiency: 0.423363)
+--------------------------------------
+Vector size: 10000000
+Threads: 1
+  Time: 30.5804 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 15.3015 ms (speedup: 1.99853x, efficiency: 0.999264)
+Threads: 4
+  Time: 7.69117 ms (speedup: 3.97604x, efficiency: 0.994011)
+Threads: 6
+  Time: 5.14138 ms (speedup: 5.9479x, efficiency: 0.991317)
+Threads: 8
+  Time: 4.27692 ms (speedup: 7.1501x, efficiency: 0.893763)
+Threads: 12
+  Time: 4.47179 ms (speedup: 6.83851x, efficiency: 0.569876)
+--------------------------------------
+Vector size: 50000000
+Threads: 1
+  Time: 153.944 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 76.8638 ms (speedup: 2.00281x, efficiency: 1.0014)
+Threads: 4
+  Time: 38.4129 ms (speedup: 4.0076x, efficiency: 1.0019)
+Threads: 6
+  Time: 30.6651 ms (speedup: 5.02016x, efficiency: 0.836693)
+Threads: 8
+  Time: 32.5719 ms (speedup: 4.72627x, efficiency: 0.590784)
+Threads: 12
+  Time: 29.847 ms (speedup: 5.15776x, efficiency: 0.429813)
+--------------------------------------

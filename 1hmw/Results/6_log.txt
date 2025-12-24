@@ -1,0 +1,140 @@
+OpenMP Schedule Testing
+Threads tested: 1 2 4 6 8 12 
+Vector sizes: 10000 100000 500000 
+Schedules: static dynamic guided 
+--------------------------------------
+Vector size: 10000
+Schedule: static
+Threads: 1
+ Time: 26.4411 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+ Time: 12.2729 ms (speedup: 2.15444x, efficiency: 1.07722)
+Threads: 4
+ Time: 6.18039 ms (speedup: 4.27823x, efficiency: 1.06956)
+Threads: 6
+ Time: 4.24547 ms (speedup: 6.22807x, efficiency: 1.03801)
+Threads: 8
+ Time: 3.51278 ms (speedup: 7.52712x, efficiency: 0.94089)
+Threads: 12
+ Time: 2.79469 ms (speedup: 9.46118x, efficiency: 0.788432)
+--------------------------------------
+Vector size: 10000
+Schedule: dynamic
+Threads: 1
+ Time: 24.5052 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+ Time: 12.2938 ms (speedup: 1.99329x, efficiency: 0.996646)
+Threads: 4
+ Time: 6.18821 ms (speedup: 3.95999x, efficiency: 0.989997)
+Threads: 6
+ Time: 4.22028 ms (speedup: 5.80655x, efficiency: 0.967758)
+Threads: 8
+ Time: 3.20992 ms (speedup: 7.63423x, efficiency: 0.954278)
+Threads: 12
+ Time: 2.40501 ms (speedup: 10.1892x, efficiency: 0.849102)
+--------------------------------------
+Vector size: 10000
+Schedule: guided
+Threads: 1
+ Time: 24.5591 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+ Time: 12.2861 ms (speedup: 1.99893x, efficiency: 0.999465)
+Threads: 4
+ Time: 6.14944 ms (speedup: 3.99371x, efficiency: 0.998428)
+Threads: 6
+ Time: 4.12994 ms (speedup: 5.94659x, efficiency: 0.991099)
+Threads: 8
+ Time: 3.16661 ms (speedup: 7.75564x, efficiency: 0.969455)
+Threads: 12
+ Time: 2.54939 ms (speedup: 9.63333x, efficiency: 0.802777)
+--------------------------------------
+Vector size: 100000
+Schedule: static
+Threads: 1
+ Time: 245.613 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+ Time: 123.111 ms (speedup: 1.99505x, efficiency: 0.997526)
+Threads: 4
+ Time: 61.679 ms (speedup: 3.98211x, efficiency: 0.995529)
+Threads: 6
+ Time: 41.2207 ms (speedup: 5.95848x, efficiency: 0.993081)
+Threads: 8
+ Time: 31.4046 ms (speedup: 7.82091x, efficiency: 0.977613)
+Threads: 12
+ Time: 27.0039 ms (speedup: 9.09546x, efficiency: 0.757955)
+--------------------------------------
+Vector size: 100000
+Schedule: dynamic
+Threads: 1
+ Time: 245.972 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+ Time: 123.139 ms (speedup: 1.99752x, efficiency: 0.99876)
+Threads: 4
+ Time: 62.278 ms (speedup: 3.94958x, efficiency: 0.987395)
+Threads: 6
+ Time: 41.9885 ms (speedup: 5.85807x, efficiency: 0.976346)
+Threads: 8
+ Time: 31.5019 ms (speedup: 7.80816x, efficiency: 0.97602)
+Threads: 12
+ Time: 23.3025 ms (speedup: 10.5556x, efficiency: 0.879631)
+--------------------------------------
+Vector size: 100000
+Schedule: guided
+Threads: 1
+ Time: 245.985 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+ Time: 122.914 ms (speedup: 2.00128x, efficiency: 1.00064)
+Threads: 4
+ Time: 61.457 ms (speedup: 4.00256x, efficiency: 1.00064)
+Threads: 6
+ Time: 40.9448 ms (speedup: 6.00773x, efficiency: 1.00129)
+Threads: 8
+ Time: 30.77 ms (speedup: 7.9943x, efficiency: 0.999288)
+Threads: 12
+ Time: 23.9488 ms (speedup: 10.2713x, efficiency: 0.855942)
+--------------------------------------
+Vector size: 500000
+Schedule: static
+Threads: 1
+ Time: 1232.27 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+ Time: 620.359 ms (speedup: 1.98638x, efficiency: 0.993192)
+Threads: 4
+ Time: 308.844 ms (speedup: 3.98994x, efficiency: 0.997486)
+Threads: 6
+ Time: 206.643 ms (speedup: 5.96329x, efficiency: 0.993881)
+Threads: 8
+ Time: 161.536 ms (speedup: 7.62845x, efficiency: 0.953557)
+Threads: 12
+ Time: 141.514 ms (speedup: 8.70776x, efficiency: 0.725646)
+--------------------------------------
+Vector size: 500000
+Schedule: dynamic
+Threads: 1
+ Time: 1247.89 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+ Time: 624.04 ms (speedup: 1.9997x, efficiency: 0.999849)
+Threads: 4
+ Time: 313.116 ms (speedup: 3.9854x, efficiency: 0.99635)
+Threads: 6
+ Time: 208.82 ms (speedup: 5.97593x, efficiency: 0.995988)
+Threads: 8
+ Time: 158.706 ms (speedup: 7.86294x, efficiency: 0.982867)
+Threads: 12
+ Time: 130.532 ms (speedup: 9.56005x, efficiency: 0.79667)
+--------------------------------------
+Vector size: 500000
+Schedule: guided
+Threads: 1
+ Time: 1246.39 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+ Time: 617.944 ms (speedup: 2.01699x, efficiency: 1.0085)
+Threads: 4
+ Time: 307.584 ms (speedup: 4.05219x, efficiency: 1.01305)
+Threads: 6
+ Time: 204.851 ms (speedup: 6.08437x, efficiency: 1.01406)
+Threads: 8
+ Time: 162.081 ms (speedup: 7.6899x, efficiency: 0.961238)
+Threads: 12
+ Time: 131.366 ms (speedup: 9.48792x, efficiency: 0.79066)
+--------------------------------------

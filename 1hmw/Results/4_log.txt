@@ -1,0 +1,56 @@
+Matrix: rows = 1000, cols = 1000, elements = 1000000
+Threads: 1
+  Time: 5.93214 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 2.81797 ms (speedup: 2.10511x, efficiency: 1.05255)
+Threads: 4
+  Time: 1.41936 ms (speedup: 4.17944x, efficiency: 1.04486)
+Threads: 6
+  Time: 1.11429 ms (speedup: 5.32369x, efficiency: 0.887281)
+Threads: 8
+  Time: 0.89575 ms (speedup: 6.62254x, efficiency: 0.827817)
+Threads: 12
+  Time: 0.819389 ms (speedup: 7.23971x, efficiency: 0.603309)
+--------------------------------------
+Matrix: rows = 5000, cols = 5000, elements = 25000000
+Threads: 1
+  Time: 137.418 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 69.2309 ms (speedup: 1.98492x, efficiency: 0.99246)
+Threads: 4
+  Time: 34.3899 ms (speedup: 3.99587x, efficiency: 0.998968)
+Threads: 6
+  Time: 23.5318 ms (speedup: 5.83967x, efficiency: 0.973279)
+Threads: 8
+  Time: 19.8571 ms (speedup: 6.92033x, efficiency: 0.865041)
+Threads: 12
+  Time: 16.8475 ms (speedup: 8.15656x, efficiency: 0.679713)
+--------------------------------------
+Matrix: rows = 10000, cols = 10000, elements = 100000000
+Threads: 1
+  Time: 547.963 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 275.161 ms (speedup: 1.99142x, efficiency: 0.995711)
+Threads: 4
+  Time: 137.815 ms (speedup: 3.97608x, efficiency: 0.994021)
+Threads: 6
+  Time: 102.665 ms (speedup: 5.33737x, efficiency: 0.889562)
+Threads: 8
+  Time: 94.4348 ms (speedup: 5.80255x, efficiency: 0.725319)
+Threads: 12
+  Time: 76.6994 ms (speedup: 7.14429x, efficiency: 0.595357)
+--------------------------------------
+Matrix: rows = 100000, cols = 10000, elements = 1000000000
+Threads: 1
+  Time: 5547.43 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+  Time: 2770.05 ms (speedup: 2.00265x, efficiency: 1.00132)
+Threads: 4
+  Time: 1374.77 ms (speedup: 4.03517x, efficiency: 1.00879)
+Threads: 6
+  Time: 1022.09 ms (speedup: 5.42754x, efficiency: 0.90459)
+Threads: 8
+  Time: 966.403 ms (speedup: 5.74029x, efficiency: 0.717536)
+Threads: 12
+  Time: 758.72 ms (speedup: 7.31157x, efficiency: 0.609297)
+--------------------------------------

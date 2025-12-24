@@ -1,0 +1,153 @@
+
+Vector size: 100000
+Threads: 1
+  No reduction: 2.21868 ms (speedup: 1x, efficiency: 1)
+  Reduction: 0.3191 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+ No reduction: 21.2245 ms (speedup: 0.104534x, efficiency: 0.052267)
+ Reduction: 0.176217 ms (speedup: 1.81084x, efficiency: 0.905419)
+Threads: 3
+ No reduction: 19.8079 ms (speedup: 0.11201x, efficiency: 0.0373366)
+ Reduction: 0.12475 ms (speedup: 2.55792x, efficiency: 0.852639)
+Threads: 4
+ No reduction: 24.3328 ms (speedup: 0.0911809x, efficiency: 0.0227952)
+ Reduction: 0.108242 ms (speedup: 2.94804x, efficiency: 0.737009)
+Threads: 5
+ No reduction: 27.726 ms (speedup: 0.0800217x, efficiency: 0.0160043)
+ Reduction: 0.115633 ms (speedup: 2.75959x, efficiency: 0.551919)
+Threads: 6
+ No reduction: 31.382 ms (speedup: 0.0706993x, efficiency: 0.0117832)
+ Reduction: 0.12555 ms (speedup: 2.54161x, efficiency: 0.423602)
+Threads: 7
+ No reduction: 32.6091 ms (speedup: 0.0680389x, efficiency: 0.00971984)
+ Reduction: 0.1134 ms (speedup: 2.81392x, efficiency: 0.401989)
+Threads: 8
+ No reduction: 40.6958 ms (speedup: 0.0545187x, efficiency: 0.00681484)
+ Reduction: 0.191508 ms (speedup: 1.66625x, efficiency: 0.208281)
+Threads: 9
+ No reduction: 59.3555 ms (speedup: 0.0373796x, efficiency: 0.00415329)
+ Reduction: 0.16055 ms (speedup: 1.98754x, efficiency: 0.220838)
+Threads: 10
+ No reduction: 48.1604 ms (speedup: 0.0460687x, efficiency: 0.00460687)
+ Reduction: 0.146708 ms (speedup: 2.17507x, efficiency: 0.217507)
+Threads: 11
+ No reduction: 82.8023 ms (speedup: 0.026795x, efficiency: 0.00243591)
+ Reduction: 0.1809 ms (speedup: 1.76396x, efficiency: 0.16036)
+Threads: 12
+ No reduction: 183.688 ms (speedup: 0.0120785x, efficiency: 0.00100654)
+ Reduction: 0.181817 ms (speedup: 1.75507x, efficiency: 0.146256)
+--------------------------------------
+Vector size: 500000
+Threads: 1
+  No reduction: 9.55723 ms (speedup: 1x, efficiency: 1)
+  Reduction: 1.56395 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+ No reduction: 107.742 ms (speedup: 0.0887047x, efficiency: 0.0443523)
+ Reduction: 0.824225 ms (speedup: 1.89748x, efficiency: 0.94874)
+Threads: 3
+ No reduction: 117.768 ms (speedup: 0.0811533x, efficiency: 0.0270511)
+ Reduction: 0.549217 ms (speedup: 2.8476x, efficiency: 0.9492)
+Threads: 4
+ No reduction: 122.258 ms (speedup: 0.0781729x, efficiency: 0.0195432)
+ Reduction: 0.4321 ms (speedup: 3.61942x, efficiency: 0.904854)
+Threads: 5
+ No reduction: 142.292 ms (speedup: 0.0671666x, efficiency: 0.0134333)
+ Reduction: 0.359742 ms (speedup: 4.34743x, efficiency: 0.869485)
+Threads: 6
+ No reduction: 153.877 ms (speedup: 0.0621097x, efficiency: 0.0103516)
+ Reduction: 0.345583 ms (speedup: 4.52554x, efficiency: 0.754256)
+Threads: 7
+ No reduction: 162.38 ms (speedup: 0.0588573x, efficiency: 0.00840818)
+ Reduction: 0.352117 ms (speedup: 4.44157x, efficiency: 0.634509)
+Threads: 8
+ No reduction: 194.751 ms (speedup: 0.0490742x, efficiency: 0.00613428)
+ Reduction: 0.393775 ms (speedup: 3.97168x, efficiency: 0.49646)
+Threads: 9
+ No reduction: 257.383 ms (speedup: 0.0371324x, efficiency: 0.00412582)
+ Reduction: 0.362475 ms (speedup: 4.31464x, efficiency: 0.479404)
+Threads: 10
+ No reduction: 265.801 ms (speedup: 0.0359564x, efficiency: 0.00359564)
+ Reduction: 0.364867 ms (speedup: 4.28636x, efficiency: 0.428636)
+Threads: 11
+ No reduction: 339.998 ms (speedup: 0.0281097x, efficiency: 0.00255543)
+ Reduction: 0.325025 ms (speedup: 4.81178x, efficiency: 0.437435)
+Threads: 12
+ No reduction: 1014.9 ms (speedup: 0.00941692x, efficiency: 0.000784743)
+ Reduction: 0.352017 ms (speedup: 4.44283x, efficiency: 0.370236)
+--------------------------------------
+Vector size: 1000000
+Threads: 1
+  No reduction: 18.9335 ms (speedup: 1x, efficiency: 1)
+  Reduction: 3.14952 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+ No reduction: 194.151 ms (speedup: 0.0975195x, efficiency: 0.0487598)
+ Reduction: 1.59251 ms (speedup: 1.97771x, efficiency: 0.988856)
+Threads: 3
+ No reduction: 243.165 ms (speedup: 0.0778626x, efficiency: 0.0259542)
+ Reduction: 1.11201 ms (speedup: 2.83228x, efficiency: 0.944095)
+Threads: 4
+ No reduction: 263.842 ms (speedup: 0.0717608x, efficiency: 0.0179402)
+ Reduction: 0.802217 ms (speedup: 3.92603x, efficiency: 0.981507)
+Threads: 5
+ No reduction: 280.043 ms (speedup: 0.0676092x, efficiency: 0.0135218)
+ Reduction: 0.66365 ms (speedup: 4.74576x, efficiency: 0.949152)
+Threads: 6
+ No reduction: 302.703 ms (speedup: 0.062548x, efficiency: 0.0104247)
+ Reduction: 0.57685 ms (speedup: 5.45987x, efficiency: 0.909978)
+Threads: 7
+ No reduction: 326.485 ms (speedup: 0.0579919x, efficiency: 0.00828455)
+ Reduction: 0.593517 ms (speedup: 5.30655x, efficiency: 0.758078)
+Threads: 8
+ No reduction: 335.781 ms (speedup: 0.0563865x, efficiency: 0.00704831)
+ Reduction: 0.464625 ms (speedup: 6.77864x, efficiency: 0.84733)
+Threads: 9
+ No reduction: 416.117 ms (speedup: 0.0455004x, efficiency: 0.0050556)
+ Reduction: 0.596409 ms (speedup: 5.28082x, efficiency: 0.586757)
+Threads: 10
+ No reduction: 517.184 ms (speedup: 0.0366088x, efficiency: 0.00366088)
+ Reduction: 0.6154 ms (speedup: 5.11785x, efficiency: 0.511785)
+Threads: 11
+ No reduction: 590.841 ms (speedup: 0.032045x, efficiency: 0.00291318)
+ Reduction: 0.531225 ms (speedup: 5.92879x, efficiency: 0.538981)
+Threads: 12
+ No reduction: 1337.11 ms (speedup: 0.01416x, efficiency: 0.00118)
+ Reduction: 0.580775 ms (speedup: 5.42296x, efficiency: 0.451914)
+--------------------------------------
+Vector size: 5000000
+Threads: 1
+  No reduction: 94.7907 ms (speedup: 1x, efficiency: 1)
+  Reduction: 15.3288 ms (speedup: 1x, efficiency: 1)
+Threads: 2
+ No reduction: 788.821 ms (speedup: 0.120168x, efficiency: 0.0600838)
+ Reduction: 7.83141 ms (speedup: 1.95735x, efficiency: 0.978676)
+Threads: 3
+ No reduction: 829.326 ms (speedup: 0.114299x, efficiency: 0.0380995)
+ Reduction: 5.2528 ms (speedup: 2.91822x, efficiency: 0.97274)
+Threads: 4
+ No reduction: 1455.87 ms (speedup: 0.0651094x, efficiency: 0.0162773)
+ Reduction: 3.87158 ms (speedup: 3.95932x, efficiency: 0.989829)
+Threads: 5
+ No reduction: 1871.76 ms (speedup: 0.0506425x, efficiency: 0.0101285)
+ Reduction: 3.25308 ms (speedup: 4.71209x, efficiency: 0.942418)
+Threads: 6
+ No reduction: 2001.58 ms (speedup: 0.0473579x, efficiency: 0.00789298)
+ Reduction: 2.72464 ms (speedup: 5.626x, efficiency: 0.937666)
+Threads: 7
+ No reduction: 2060.25 ms (speedup: 0.0460094x, efficiency: 0.00657277)
+ Reduction: 2.57822 ms (speedup: 5.94551x, efficiency: 0.849359)
+Threads: 8
+ No reduction: 2129.47 ms (speedup: 0.0445137x, efficiency: 0.00556421)
+ Reduction: 2.11332 ms (speedup: 7.25342x, efficiency: 0.906677)
+Threads: 9
+ No reduction: 2516.36 ms (speedup: 0.0376699x, efficiency: 0.00418554)
+ Reduction: 2.65777 ms (speedup: 5.76754x, efficiency: 0.640838)
+Threads: 10
+ No reduction: 2690.35 ms (speedup: 0.0352336x, efficiency: 0.00352336)
+ Reduction: 2.39406 ms (speedup: 6.40286x, efficiency: 0.640286)
+Threads: 11
+ No reduction: 3453.55 ms (speedup: 0.0274474x, efficiency: 0.00249521)
+ Reduction: 2.77024 ms (speedup: 5.53339x, efficiency: 0.503035)
+Threads: 12
+ No reduction: 10244.9 ms (speedup: 0.00925252x, efficiency: 0.000771043)
+ Reduction: 2.66815 ms (speedup: 5.74511x, efficiency: 0.478759)
+--------------------------------------
